@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-image: url('images/bg.jpg'); background-size: cover;">
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Article 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="pages/article.html#sejarah">Sejarah</a>
+      <a href="pages/article.html#kantin">Kantin</a>
+      <a href="pages/article.html#matrik">Martikulasi</a>
+      <a href="pages/article.html#makanan">Makanan sehat</a>
+      <a href="pages/article.html#perpus">Perpustakaan</a>
+    </div>
+  </div>
+  <a href="pages/bio/index.html">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div class="container-article">
+    <h1 style="text-align: center; font-weight: 900;">SMK WIKRAMA 1 GARUT</h1>  
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
